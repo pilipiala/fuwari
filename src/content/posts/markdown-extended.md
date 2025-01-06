@@ -24,23 +24,23 @@ draft: false
 
 支持以下类型的警告: `note` `tip` `important` `warning` `caution`
 
-:::笔记
+:::note
 Highlights information that users should take into account, even when skimming.
 :::
 
-:::提示
+::: 提示
 Optional information to help a user be more successful.
 :::
 
-:::重要的
+::: 重要的
 Crucial information necessary for users to succeed.
 :::
 
-:::警告
+::: 警告
 Critical content demanding immediate user attention due to potential risks.
 :::
 
-:::小心
+::: 小心
 Negative potential consequences of an action.
 :::
 
