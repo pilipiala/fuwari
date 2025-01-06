@@ -72,7 +72,7 @@ Optional information to help a user be more successful.
 
 ### GitHub 语法
 
-> [!提示]
+> [!tip]
 > [GitHub 语法](https://github.com/orgs/community/discussions/16925) 也受支持
 
 ```
