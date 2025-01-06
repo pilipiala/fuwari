@@ -20,7 +20,7 @@ export const siteConfig: SiteConfig = {
     position: 'center',      // 相当于object-position，只支持'top'，'center'，'bottom'。默认为“中心”
     credit: {
       enable: true,         // 显示横幅图像的信用文本 false 改为 true
-      text: '',              // 要显示的信用文本
+      text: '啊茶茶(゜-゜)つロ 干杯~',              // 要显示的信用文本
       url: 'https://fuwari.vercel.app/_astro/demo-banner.DFyx781H_Z1gN7UP.webp'      //（可选）原始艺术作品或艺术家页面的 URL 链接
     }
   },
