@@ -1,3 +1,4 @@
+// @ts-ignore
 import { defineCollection, z } from 'astro:content'
 
 const postsCollection = defineCollection({
