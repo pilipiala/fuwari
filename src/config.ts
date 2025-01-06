@@ -15,13 +15,13 @@ export const siteConfig: SiteConfig = {
     fixed: false,     // 为访客隐藏主题颜色选择器
   },
   banner: {
-    enable: true,
+    enable: true,     // 开启横幅 false 改为 true
     src: 'assets/images/demo-banner.png',   // 相对于/src目录。如果以“/”开头，则相对于 /public 目录
     position: 'center',      // 相当于object-position，只支持'top'，'center'，'bottom'。默认为“中心”
     credit: {
-      enable: true,         // 显示横幅图像的信用文本
+      enable: true,         // 显示横幅图像的信用文本 false 改为 true
       text: '',              // 要显示的信用文本
-      url: 'https://fuwari.vercel.app/_astro/demo-banner.DFyx781H_Z1gN7UP.webp'                //（可选）原始艺术作品或艺术家页面的 URL 链接
+      url: 'https://fuwari.vercel.app/_astro/demo-banner.DFyx781H_Z1gN7UP.webp'      //（可选）原始艺术作品或艺术家页面的 URL 链接
     }
   },
   toc: {
@@ -60,17 +60,27 @@ export const profileConfig: ProfileConfig = {
       icon: 'fa6-brands:twitter',       // 访问 https://icones.js.org/ 获取图标代码
                                         // 如果尚未包含，您将需要安装相应的图标集
                                         // `pnpm add @iconify-json/<icon-set-name>`
-      url: 'https://twitter.com/pilipiala',
+      url: 'https://twitter.com/bilibiala',
+    },
+    {
+      name: 'Telegram',
+      icon: 'fa6-brands:telegram',
+      url: 'https://t.me/pilipialia',
     },
     {
       name: 'Steam',
       icon: 'fa6-brands:steam',
-      url: 'https://store.steampowered.com',
+      url: 'https://steamcommunity.com/id/bilibiala',
     },
     {
       name: 'GitHub',
       icon: 'fa6-brands:github',
       url: 'https://github.com/pilipiala',
+    },
+    {
+      name: 'Mail',
+      icon: 'ic:baseline-email',
+      url: 'acgr18share@gmail.com',
     },
   ],
 }
