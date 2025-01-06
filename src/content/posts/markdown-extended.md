@@ -72,7 +72,7 @@ draft: false
 
 ### GitHub 语法
 
-> [!Tip]
+> [!TIP]
 > [GitHub 语法](https://github.com/orgs/community/discussions/16925) 也受支持
 
 ```
