@@ -1,7 +1,7 @@
 ---
 title: Draft Example
 published: 2022-07-01
-tags: [Markdown, Blogging, Demo]
+tags: [Markdown, 博客, 演示]
 category: Examples
 draft: true
 ---

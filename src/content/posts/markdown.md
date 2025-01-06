@@ -87,52 +87,45 @@ for i in range(10):
 再次注意文本总是以 4 个空格的缩进排列（包括延续上面第 3 项的最后一行）
 
 这是指向 [网站](http://foo.bar),  [本地文档](local-doc.html),
-[当前文档中章节标题](#an-h2-header). 这是脚注 [^1]。
+[当前文档中章节标题](#an-h2-header)的链接. 这是脚注 [^1]。
 
-原文：
+`原文`：
 
 Here's a link to [a website](http://foo.bar), to a [local
 doc](local-doc.html), and to a [section heading in the current
 doc](#an-h2-header). Here's a footnote [^1].
 
-[^1]: Footnote text goes here.
+[^1]: 脚注文本放在此处
 
-Tables can look like this:
+表格看起来如下：
 
-size material color
-
----
-
-9 leather brown
-10 hemp canvas natural
-11 glass transparent
-
-Table: Shoes, their sizes, and what they're made of
-
-(The above is the caption for the table.) Pandoc also supports
-multi-line tables:
+尺寸 材质 颜色
 
 ---
 
-keyword text
+9棕色皮革 10 天然麻帆布 11 透明玻璃
+
+表格：鞋子、鞋子尺码以及材质
+
+（以上是表格的标题。）Pandoc 还支持多行表格：
 
 ---
 
-red Sunsets, apples, and
-other red or reddish
-things.
-
-green Leaves, grass, frogs
-and other things it's
-not easy being.
+关键词文本
 
 ---
 
-A horizontal rule follows.
+红色日落、苹果和其他红色或淡红色的东西。
+
+绿色的树叶，小草，青蛙等东西都不容易存在。
 
 ---
 
-Here's a definition list:
+接下来是水平线。
+
+---
+
+以下是定义列表：
 
 apples
 : Good for making applesauce.
