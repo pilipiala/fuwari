@@ -40,7 +40,7 @@ draft: false
 由于潜在风险，关键内容需要用户立即关注。
 :::
 
-::: 小心
+:::caution
 某个行为可能造成的负面后果。
 :::
 
@@ -48,11 +48,11 @@ draft: false
 
 ```markdown
 :::note
-Highlights information that users should take into account, even when skimming.
+突出显示用户即使在浏览时也应考虑的信息。
 :::
 
 :::tip
-Optional information to help a user be more successful.
+帮助用户取得更大成功的可选信息。
 :::
 ```
 
@@ -72,13 +72,13 @@ Optional information to help a user be more successful.
 
 ### GitHub 语法
 
-> [!tip]
+> [!Tip]
 > [GitHub 语法](https://github.com/orgs/community/discussions/16925) 也受支持
 
 ```
-> [!tip]
+> [!NOTE]
 > GitHub 语法也受支持
 
-> [!tip]
+> [!Tip]
 > GitHub 语法也受支持
 ```
