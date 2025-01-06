@@ -15,13 +15,13 @@ export const siteConfig: SiteConfig = {
     fixed: false,     // 为访客隐藏主题颜色选择器
   },
   banner: {
-    enable: false,
+    enable: true,
     src: 'assets/images/demo-banner.png',   // 相对于/src目录。如果以“/”开头，则相对于 /public 目录
     position: 'center',      // 相当于object-position，只支持'top'，'center'，'bottom'。默认为“中心”
     credit: {
-      enable: false,         // 显示横幅图像的信用文本
+      enable: true,         // 显示横幅图像的信用文本
       text: '',              // 要显示的信用文本
-      url: 'https://i.pximg.net/img-original/img/2023/08/21/05/01/09/111024784_p0.png'                //（可选）原始艺术作品或艺术家页面的 URL 链接
+      url: 'https://fuwari.vercel.app/_astro/demo-banner.DFyx781H_Z1gN7UP.webp'                //（可选）原始艺术作品或艺术家页面的 URL 链接
     }
   },
   toc: {
