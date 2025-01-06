@@ -1,25 +1,24 @@
 ---
-title: Markdown Example
+title: Markdown 示例
 published: 2023-10-01
 description: A simple example of a Markdown blog post.
-tags: [Markdown, Blogging, Demo]
-category: Examples
+tags: [Markdown, 博客, 演示]
+category: 示例
 draft: false
 ---
 
-# An h1 header
+# 一个 h1 标题
 
-Paragraphs are separated by a blank line.
+段落之间以空行分隔
 
-2nd paragraph. _Italic_, **bold**, and `monospace`. Itemized lists
-look like:
+第二段， _斜体_, **粗体**, and `monospace`。
+分项列表如下:
 
-- this one
-- that one
-- the other one
+- 这个
+- 那个
+- 另一个
 
-Note that --- not considering the asterisk --- the actual text
-content starts at 4-columns in.
+请注意 --- 不考虑星号 --- 实际文本内容从第 4 列开始。
 
 > Block quotes are
 > written like so.
@@ -27,26 +26,22 @@ content starts at 4-columns in.
 > They can span multiple paragraphs,
 > if you like.
 
-Use 3 dashes for an em-dash. Use 2 dashes for ranges (ex., "it's all
-in chapters 12--14"). Three dots ... will be converted to an ellipsis.
-Unicode is supported. ☺
+使用 3 个破折号表示长破折号。使用 2 个破折号表示范围（例如，“全部在第 12-14 章中”）。三个点...将转换为省略号。支持 Unicode。☺
 
-## An h2 header
+## 一个 h2 标题
 
-Here's a numbered list:
+以下是一个编号列表:
 
-1. first item
-2. second item
-3. third item
+1. 第一项
+2. 第二项
+3. 第三项
 
-Note again how the actual text starts at 4 columns in (4 characters
-from the left side). Here's a code sample:
+请再次注意实际文本如何从第 4 列开始（左侧 4 个字符）。以下是代码示例:
 
     # Let me re-iterate ...
     for i in 1 .. 10 { do-something(i) }
 
-As you probably guessed, indented 4 spaces. By the way, instead of
-indenting the block, you can use delimited blocks, if you like:
+你可能已经猜到了，缩进 4 个空格。顺便说一句，如果你愿意，你可以使用分隔块，而不是缩进块:
 
 ```
 define foobar() {
@@ -54,8 +49,7 @@ define foobar() {
 }
 ```
 
-(which makes copying & pasting easier). You can optionally mark the
-delimited block for Pandoc to syntax highlight it:
+（这使得复制和粘贴更容易）。您可以选择标记分隔块，以便 Pandoc 语法高亮显示它:
 
 ```python
 import time
@@ -66,33 +60,36 @@ for i in range(10):
     print i
 ```
 
-### An h3 header
+### 一个 h3 标题
 
-Now a nested list:
+现在有一个嵌套列表:
 
 1. First, get these ingredients:
 
-    - carrots
-    - celery
-    - lentils
+    - 胡萝卜
+    - 芹菜
+    - 扁豆
 
-2. Boil some water.
+2. 烧开一些水
 
-3. Dump everything in the pot and follow
-    this algorithm:
+3. 把所有筹码都倒入底池，然后遵循以下算法:
 
-        find wooden spoon
-        uncover pot
-        stir
-        cover pot
-        balance wooden spoon precariously on pot handle
-        wait 10 minutes
-        goto first step (or shut off burner when done)
+        找到木勺
+        揭开锅盖
+        搅拌
+        盖锅
+        将木勺不稳定地平衡在锅柄上
+        等10分钟
+        转到第一步（或完成后关闭燃烧器）
 
-    Do not bump wooden spoon or it will fall.
+   不要撞击木勺，否则它会掉落
 
-Notice again how text always lines up on 4-space indents (including
-that last line which continues item 3 above).
+再次注意文本总是以 4 个空格的缩进排列（包括延续上面第 3 项的最后一行）
+
+这是指向 [网站](http://foo.bar),  [本地文档](local-doc.html),
+[当前文档中章节标题](#an-h2-header). 这是脚注 [^1]。
+
+原文：
 
 Here's a link to [a website](http://foo.bar), to a [local
 doc](local-doc.html), and to a [section heading in the current
