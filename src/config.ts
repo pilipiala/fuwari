@@ -68,9 +68,9 @@ export const profileConfig: ProfileConfig = {
       url: 'https://t.me/pilipialia',
     },
     {
-      name: 'Steam',
-      icon: 'fa6-brands:steam',
-      url: 'https://steamcommunity.com/id/bilibiala',
+      name: 'QQ',
+      icon: 'fa6-brands:qq',
+      url: 'https://qm.qq.com/q/gNyjp83zW2',
     },
     {
       name: 'GitHub',
