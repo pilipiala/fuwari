@@ -63,6 +63,11 @@ export const profileConfig: ProfileConfig = {
       url: 'https://twitter.com/bilibiala',
     },
     {
+      name: 'Telegram',
+      icon: 'fa6-brands:telegram',
+      url: 'https://t.me/pilipialia',
+    },
+    {
       name: 'Steam',
       icon: 'fa6-brands:steam',
       url: 'https://steamcommunity.com/id/bilibiala',
