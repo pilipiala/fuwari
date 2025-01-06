@@ -1,5 +1,5 @@
 ---
-title: 在帖子中包含视频
+title: 在帖子中嵌入视频
 published: 2023-08-01
 description: 这篇文章演示了如何在博客文章中包含嵌入视频。
 tags: [示例、视频]

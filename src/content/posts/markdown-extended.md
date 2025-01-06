@@ -9,7 +9,7 @@ category: '示例'
 draft: false 
 ---
 
-## GitHub Repository Cards
+## GitHub 存储库卡
 您可以添加链接到 GitHub 存储库的动态卡，在页面加载时，从 GitHub API 提取存储库信息。 
 
 ::github{repo="Fabrizz/MMM-OnSpotify"}
