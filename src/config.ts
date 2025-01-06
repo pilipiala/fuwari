@@ -7,7 +7,7 @@ import type {
 import { LinkPreset } from './types/config'
 
 export const siteConfig: SiteConfig = {
-  title: '啊茶茶のBlog',
+  title: '啊茶茶の博客',
   subtitle: '(゜-゜)つロ 干杯~',
   lang: 'zh_CN',         // 'en', 'zh_CN', 'zh_TW', 'ja', 'ko', 'es', 'th'
   themeColor: {
@@ -44,7 +44,7 @@ export const navBarConfig: NavBarConfig = {
     LinkPreset.About,
     {
       name: 'GitHub',
-      url: 'https://github.com/saicaca/fuwari',     // 内部链接不应包含基本路径，因为它是自动添加的
+      url: 'https://github.com/pilipiala/fuwari',     // 内部链接不应包含基本路径，因为它是自动添加的
       external: true,                               // 显示外部链接图标并将在新选项卡中打开
     },
   ],
@@ -52,8 +52,8 @@ export const navBarConfig: NavBarConfig = {
 
 export const profileConfig: ProfileConfig = {
   avatar: 'assets/images/demo-avatar.png',  // 相对于/src目录。如果以“/”开头，则相对于 /public 目录
-  name: 'Lorem Ipsum',
-  bio: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+  name: '啊茶茶',
+  bio: '看不懂代码的小废物！',
   links: [
     {
       name: 'Twitter',
