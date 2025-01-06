@@ -1,7 +1,7 @@
 # About
 这是 Fuwari [啊茶茶](https://github.com/pilipiala/fuwari)的演示站点。
 
-::github{repo="saicaca/fuwari"}
+::github{repo="pilipiala/fuwari"}
 
 > ### 本网站使用的图片来源
 > - [Unsplash](https://unsplash.com/)

@@ -1,13 +1,13 @@
 ---
 title: Markdown 示例
 published: 2023-10-01
-description: A simple example of a Markdown blog post.
+description: Markdown 博客文章的简单示例
 tags: [Markdown, 博客, 演示]
 category: 示例
 draft: false
 ---
 
-# 一个 h1 标题
+# 这是一个 h1 标题
 
 段落之间以空行分隔
 
@@ -28,7 +28,7 @@ draft: false
 
 使用 3 个破折号表示长破折号。使用 2 个破折号表示范围（例如，“全部在第 12-14 章中”）。三个点...将转换为省略号。支持 Unicode。☺
 
-## 一个 h2 标题
+## 这是一个 h2 标题
 
 以下是一个编号列表:
 
@@ -60,7 +60,7 @@ for i in range(10):
     print i
 ```
 
-### 一个 h3 标题
+### 这是一个 h3 标题
 
 现在有一个嵌套列表:
 
