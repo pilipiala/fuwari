@@ -8,11 +8,11 @@ import { LinkPreset } from './types/config'
 
 export const siteConfig: SiteConfig = {
   title: '啊茶茶のBlog',
-  subtitle: 'Demo Site',
+  subtitle: '(゜-゜)つロ 干杯~',
   lang: 'zh_CN',         // 'en', 'zh_CN', 'zh_TW', 'ja', 'ko', 'es', 'th'
   themeColor: {
-    hue: 250,         // Default hue for the theme color, from 0 to 360. e.g. red: 0, teal: 200, cyan: 250, pink: 345
-    fixed: false,     // Hide the theme color picker for visitors
+    hue: 250,         // Default hue for the theme color, from 0 to 360. e.g. red: 0, teal: 200, cyan: 250, pink: 345 /主题颜色的默认色调，从 0 到 360。红色：0，青色：200，青色：250，粉色：345
+    fixed: false,     // Hide the theme color picker for visitors /为访客隐藏主题颜色选择器
   },
   banner: {
     enable: false,
