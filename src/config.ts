@@ -21,7 +21,7 @@ export const siteConfig: SiteConfig = {
     credit: {
       enable: true,         // 显示横幅图像的信用文本 false 改为 true
       text: '啊茶茶(゜-゜)つロ 干杯~',              // 要显示的信用文本
-      url: '<iframe src="//player.html?isOutside=false&aid=775115998&bvid=BV1J14y1W73i&cid=888849084&p=1"%20scrolling="yes"%20border="0"%20frameborder="no"%20framespacing="0"%20allowfullscreen="false"></iframe>'      //（可选）原始艺术作品或艺术家页面的 URL 链接
+      url: 'music.163.com/outchain/player?type=2&id=28390043'      //（可选）原始艺术作品或艺术家页面的 URL 链接
     }
   },
   toc: {
