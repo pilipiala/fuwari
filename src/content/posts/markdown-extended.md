@@ -25,23 +25,23 @@ draft: false
 支持以下类型的警告: `note` `tip` `important` `warning` `caution`
 
 :::note
-Highlights information that users should take into account, even when skimming.
+突出显示用户应该考虑的信息，即使浏览时也是如此
 :::
 
-::: 提示
-Optional information to help a user be more successful.
+:::tip
+可选信息，帮助用户取得更大成功。
 :::
 
-::: 重要的
-Crucial information necessary for users to succeed.
+:::important
+用户成功所必需的关键信息。
 :::
 
-::: 警告
-Critical content demanding immediate user attention due to potential risks.
+:::warning
+由于潜在风险，关键内容需要用户立即关注。
 :::
 
 ::: 小心
-Negative potential consequences of an action.
+某个行为可能造成的负面后果。
 :::
 
 ### 基本语法
@@ -76,9 +76,9 @@ Optional information to help a user be more successful.
 > [GitHub 语法](https://github.com/orgs/community/discussions/16925) 也受支持
 
 ```
-> [!提示]
+> [!tip]
 > GitHub 语法也受支持
 
-> [!提示]
+> [!tip]
 > GitHub 语法也受支持
 ```
