@@ -8,9 +8,10 @@ draft: true
 
 # This Article is a Draft
 
-This article is currently in a draft state and is not published. Therefore, it will not be visible to the general audience. The content is still a work in progress and may require further editing and review.
+这篇文章目前处于草稿状态，尚未发表。因此，一般观众是看不到的。该内容仍在进行中，可能需要进一步编辑和审查。
+当文章准备好发布时，您可以将 Frontmatter 中的“草稿”字段更新为“false”:
 
-When the article is ready for publication, you can update the "draft" field to "false" in the Frontmatter:
+Draft:草稿
 
 ```markdown
 ---
