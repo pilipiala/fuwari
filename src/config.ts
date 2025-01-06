@@ -21,12 +21,12 @@ export const siteConfig: SiteConfig = {
     credit: {
       enable: false,         // 显示横幅图像的信用文本
       text: '',              // 要显示的信用文本
-      url: ''                //（可选）原始艺术作品或艺术家页面的 URL 链接
+      url: 'https://i.pximg.net/img-original/img/2023/08/21/05/01/09/111024784_p0.png'                //（可选）原始艺术作品或艺术家页面的 URL 链接
     }
   },
   toc: {
     enable: true,           // 在帖子右侧显示目录
-    depth: 2                // 表中显示的最大标题深度，从 1 到 3
+    depth: 3                // 表中显示的最大标题深度，从 1 到 3
   },
   favicon: [    // 将此数组留空以使用默认的图标
     // {
