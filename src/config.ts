@@ -7,7 +7,7 @@ import type {
 import { LinkPreset } from './types/config'
 
 export const siteConfig: SiteConfig = {
-  title: '啊茶茶の博客',
+  title: '啊茶茶の小窝',
   subtitle: '(゜-゜)つロ 干杯~',
   lang: 'zh_CN',         // 'en', 'zh_CN', 'zh_TW', 'ja', 'ko', 'es', 'th'
   themeColor: {
