@@ -85,3 +85,5 @@ export const licenseConfig: LicenseConfig = {
   name: 'CC BY-NC-SA 4.0',
   url: 'https://creativecommons.org/licenses/by-nc-sa/4.0/',
 }
+
+//补充：底部帖子简介更改链接办法，我修改了 rss.xml.ts 和 astro.config.mjs 中的" https://fuwari-32d.pages.dev/ ",或许更改后者就可以了
