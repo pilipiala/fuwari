@@ -63,11 +63,6 @@ export const profileConfig: ProfileConfig = {
       url: 'https://twitter.com/bilibiala',
     },
     {
-      name: 'Telegram',
-      icon: 'fa6-brands:telegram',
-      url: 'https://t.me/pilipialia',
-    },
-    {
       name: 'Steam',
       icon: 'fa6-brands:steam',
       url: 'https://steamcommunity.com/id/bilibiala',
@@ -76,11 +71,6 @@ export const profileConfig: ProfileConfig = {
       name: 'GitHub',
       icon: 'fa6-brands:github',
       url: 'https://github.com/pilipiala',
-    },
-    {
-      name: 'Mail',
-      icon: 'ic:baseline-email',
-      url: 'acgr18share@gmail.com',
     },
   ],
 }
