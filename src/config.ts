@@ -16,7 +16,7 @@ export const siteConfig: SiteConfig = {
   },
   banner: {
     enable: true,     // 开启横幅 false 改为 true
-    src: 'https://pub-932bcf23b7c54bdf90743ac393af13cd.r2.dev/%E5%8D%9A%E5%AE%A2%E5%B8%96%E5%AD%90%E5%9B%BE%E7%89%87/108297771_p0.png',   // 相对于/src目录。如果以“/”开头，则相对于 /public 目录
+    src: 'assets/images/108297771_p0.png',   // 相对于/src目录。如果以“/”开头，则相对于 /public 目录
     position: 'center',      // 相当于object-position，只支持'top'，'center'，'bottom'。默认为“中心”
     credit: {
       enable: true,         // 显示横幅图像的信用文本 false 改为 true
@@ -29,11 +29,11 @@ export const siteConfig: SiteConfig = {
     depth: 3                // 表中显示的最大标题深度，从 1 到 3
   },
   favicon: [    // 将此数组留空以使用默认的图标
-    // {
-    //   src: '/favicon/icon.png',    // 图标的路径，相对于 /public 目录
-    //   theme: 'light',              // （可选）“浅色”或“深色”，仅当您有不同的浅色和深色模式图标时才设置
-    //   sizes: '32x32',              // （可选）图标大小，仅当您有不同大小的图标时才设置
-    // }
+    {
+      src: '/favicon/张佳乐.jpg',    // 图标的路径，相对于 /public 目录
+      theme: 'light',              // （可选）“浅色”或“深色”，仅当您有不同的浅色和深色模式图标时才设置
+      sizes: '32x32',              // （可选）图标大小，仅当您有不同大小的图标时才设置
+    }
   ]
 }
 
