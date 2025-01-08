@@ -16,7 +16,7 @@ export const siteConfig: SiteConfig = {
   },
   banner: {
     enable: true,     // 开启横幅 false 改为 true
-    src: 'assets/images/108297771_p0.png',   // 相对于/src目录。如果以“/”开头，则相对于 /public 目录
+    src: 'https://pub-932bcf23b7c54bdf90743ac393af13cd.r2.dev/%E5%8D%9A%E5%AE%A2%E5%B8%96%E5%AD%90%E5%9B%BE%E7%89%87/108297771_p0.png',   // 相对于/src目录。如果以“/”开头，则相对于 /public 目录
     position: 'center',      // 相当于object-position，只支持'top'，'center'，'bottom'。默认为“中心”
     credit: {
       enable: true,         // 显示横幅图像的信用文本 false 改为 true
