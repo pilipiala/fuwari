@@ -33,7 +33,7 @@ Typora 中文官网地址：https://typoraio.cn </br>
 
 ## 二、工具下载
 
-[Tproa_Activation_Script.7z](https://pilipiala.lanzouw.com/icIaV2kpdj1g)
+[Typroa_Activation_Script.7z](https://pilipiala.lanzouw.com/icIaV2kpdj1g)
 
 ### 1.安装Typora
 
