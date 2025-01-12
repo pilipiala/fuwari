@@ -27,8 +27,8 @@ draft: false
 
 ## 一、首先下载Typora
 
-Typora 官网地址：https://typora.io
-Typora 中文官网地址：https://typoraio.cn
+Typora 官网地址：https://typora.io </br>
+Typora 中文官网地址：https://typoraio.cn </br>
 或者是直接使用亲测有效的setup
 
 ## 二、工具下载
@@ -43,9 +43,9 @@ Typora 中文官网地址：https://typoraio.cn
 
 Typora 的安装过程我就不演示了，只需按提示点击“下一步”即可。接着，将下载的工具压缩包解压，您会看到两个 `.exe` 文件。
 
-license-gen.exe
+> license-gen.exe
 
-node_inject.exe
+> node_inject.exe
 
 #### 3. 复制文件至安装目录
 
@@ -58,12 +58,12 @@ node_inject.exe
 #### 5. 运行工具
 
 > 如果 Typora 安装在 D 盘或其他盘，需要先输入`D:`跳转到对应盘符，再输入以下内容：
->
+
 > 提示：如果在 `CMD`下用cd命令进不了D盘的问题一个方法就是 增加一个/d 就可以了，如`cd /d d:`
 
-（1）输入 cd C:\Program Files\Typora 按回车，跳转到 Typora 安装路径。
-（2）输入 node_inject.exe 按回车，等待提示“**done!**”。
-（3）输入 license-gen.exe 按回车，等待显示序列号。
+（1）输入 cd C:\Program Files\Typora 按回车，跳转到 Typora 安装路径。</br>
+（2）输入 node_inject.exe 按回车，等待提示“**done!**”。</br>
+（3）输入 license-gen.exe 按回车，等待显示序列号。</br>
 
 #### 6. 输入序列号
 
