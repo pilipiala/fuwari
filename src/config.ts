@@ -21,20 +21,43 @@ export const siteConfig: SiteConfig = {
     credit: {
       enable: true,         
       text: '啊茶茶(゜-゜)つロ 干杯~ 🎵',              
-      url: '#',  // 将使用下面的 HTML 音频播放器代替直接链接
+      url: '#',  
       html: `<audio id="bgMusic" style="display:none">
         <source src="https://pub-932bcf23b7c54bdf90743ac393af13cd.r2.dev/%E9%9F%B3%E4%B9%90/%E5%9B%BE%E4%B9%A6%E9%A6%86%E5%AD%A6%E4%B9%A0%E5%AE%89%E9%9D%99%E8%BD%BB%E9%9F%B3%E4%B9%90.mp3" type="audio/mpeg">
       </audio>
       <script>
-        document.querySelector('.banner-credit').onclick = function(e) {
-          e.preventDefault();
-          const audio = document.getElementById('bgMusic');
-          if (audio.paused) {
-            audio.play();
-          } else {
-            audio.pause();
+        (function() {
+          function initAudioPlayer() {
+            const creditLink = document.querySelector('.banner-credit');
+            const audio = document.getElementById('bgMusic');
+            
+            if (!creditLink || !audio) {
+              setTimeout(initAudioPlayer, 100);
+              return;
+            }
+            
+            creditLink.addEventListener('click', function(e) {
+              e.preventDefault();
+              e.stopPropagation();
+              
+              if (audio.paused) {
+                audio.play().catch(function(error) {
+                  console.log('播放失败:', error);
+                });
+              } else {
+                audio.pause();
+              }
+              
+              return false;
+            }, true);
           }
-        }
+          
+          if (document.readyState === 'loading') {
+            document.addEventListener('DOMContentLoaded', initAudioPlayer);
+          } else {
+            initAudioPlayer();
+          }
+        })();
       </script>`
     }
   },
