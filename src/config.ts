@@ -16,12 +16,12 @@ export const siteConfig: SiteConfig = {
   },
   banner: {
     enable: true,     // 开启横幅 false 改为 true
-    src: 'assets/images/108297771_p0.png',   // 相对于/src目录。如果以“/”开头，则相对于 /public 目录
-    position: 'center',      // 相当于object-position，只支持'top'，'center'，'bottom'。默认为“中心”
+    src: 'assets/images/108297771_p0.png',   // 相对于/src目录。如果以"/"开头，则相对于 /public 目录
+    position: 'center',      // 相当于object-position，只支持'top'，'center'，'bottom'。默认为"中心"
     credit: {
-      enable: true,         // 显示横幅图像的信用文本 false 改为 true
-      text: '啊茶茶(゜-゜)つロ 干杯~',              // 要显示的信用文本
-      url: 'https://music.163.com/outchain/player?type=2&id=28390043&auto=1'      //（可选）原始艺术作品或艺术家页面的 URL 链接
+      enable: true,         
+      text: '啊茶茶(゜-゜)つロ 点击播放/暂停音乐 🎵',              
+      url: '#'
     }
   },
   toc: {
@@ -31,7 +31,7 @@ export const siteConfig: SiteConfig = {
   favicon: [    // 将此数组留空以使用默认的图标
     // {
     //   src: '/favicon/icon.png',    // 图标的路径，相对于 /public 目录
-    //   theme: 'light',              // （可选）“浅色”或“深色”，仅当您有不同的浅色和深色模式图标时才设置
+    //   theme: 'light',              // （可选）"浅色"或"深色"，仅当您有不同的浅色和深色模式图标时才设置
     //   sizes: '32x32',              // （可选）图标大小，仅当您有不同大小的图标时才设置
     // }
   ]
@@ -61,7 +61,7 @@ export const navBarConfig: NavBarConfig = {
 }
 
 export const profileConfig: ProfileConfig = {
-  avatar: 'assets/images/demo-avatar.png',  // 相对于/src目录。如果以“/”开头，则相对于 /public 目录
+  avatar: 'assets/images/demo-avatar.png',  // 相对于/src目录。如果以"/"开头，则相对于 /public 目录
   name: '啊茶茶',
   bio: '一个看不懂代码的小废物！',
   links: [

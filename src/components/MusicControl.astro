@@ -1,0 +1,66 @@
+<div class="music-control">
+  <button id="musicToggle" class="music-btn">
+    <span class="music-icon">🎵</span>
+  </button>
+</div>
+
+<style>
+  .music-control {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1000;
+  }
+
+  .music-btn {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.8);
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    transition: all 0.3s ease;
+  }
+
+  .music-btn:hover {
+    transform: scale(1.1);
+  }
+
+  .music-icon {
+    font-size: 20px;
+  }
+
+  .playing .music-icon {
+    animation: rotate 2s linear infinite;
+  }
+
+  @keyframes rotate {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+</style>
+
+<script>
+  const musicBtn = document.getElementById('musicToggle');
+  const audio = document.getElementById('bgMusic') as HTMLAudioElement;
+
+  if (musicBtn && audio) {
+    musicBtn.addEventListener('click', () => {
+      if (audio.paused) {
+        audio.play();
+        musicBtn.classList.add('playing');
+      } else {
+        audio.pause();
+        musicBtn.classList.remove('playing');
+      }
+    });
+  }
+</script> 
