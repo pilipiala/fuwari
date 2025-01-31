@@ -19,9 +19,9 @@ export const siteConfig: SiteConfig = {
     src: 'assets/images/108297771_p0.png',   // 相对于/src目录。如果以"/"开头，则相对于 /public 目录
     position: 'center',      // 相当于object-position，只支持'top'，'center'，'bottom'。默认为"中心"
     credit: {
-      enable: true,         
-      text: '啊茶茶(゜-゜)つロ 点击播放/暂停音乐 🎵',              
-      url: '#'
+      enable: true,         // 显示横幅图像的信用文本 false 改为 true
+      text: '啊茶茶(゜-゜)つロ 干杯~',              // 要显示的信用文本
+      url: 'https://music.163.com/outchain/player?type=2&id=28390043&auto=1'      //（可选）原始艺术作品或艺术家页面的 URL 链接
     }
   },
   toc: {
