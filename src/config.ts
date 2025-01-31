@@ -19,9 +19,23 @@ export const siteConfig: SiteConfig = {
     src: 'assets/images/108297771_p0.png',   // 相对于/src目录。如果以"/"开头，则相对于 /public 目录
     position: 'center',      // 相当于object-position，只支持'top'，'center'，'bottom'。默认为"中心"
     credit: {
-      enable: true,         // 显示横幅图像的信用文本 false 改为 true
-      text: '啊茶茶(゜-゜)つロ 干杯~',              
-      url: 'https://pub-932bcf23b7c54bdf90743ac393af13cd.r2.dev/%E9%9F%B3%E4%B9%90/%E5%9B%BE%E4%B9%A6%E9%A6%86%E5%AD%A6%E4%B9%A0%E5%AE%89%E9%9D%99%E8%BD%BB%E9%9F%B3%E4%B9%90.mp3'
+      enable: true,         
+      text: '啊茶茶(゜-゜)つロ 干杯~ 🎵',              
+      url: '#',  // 将使用下面的 HTML 音频播放器代替直接链接
+      html: `<audio id="bgMusic" style="display:none">
+        <source src="https://pub-932bcf23b7c54bdf90743ac393af13cd.r2.dev/%E9%9F%B3%E4%B9%90/%E5%9B%BE%E4%B9%A6%E9%A6%86%E5%AD%A6%E4%B9%A0%E5%AE%89%E9%9D%99%E8%BD%BB%E9%9F%B3%E4%B9%90.mp3" type="audio/mpeg">
+      </audio>
+      <script>
+        document.querySelector('.banner-credit').onclick = function(e) {
+          e.preventDefault();
+          const audio = document.getElementById('bgMusic');
+          if (audio.paused) {
+            audio.play();
+          } else {
+            audio.pause();
+          }
+        }
+      </script>`
     }
   },
   toc: {
